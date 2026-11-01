@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+build_notebook.py
+data/CCPP/
+data/ccpp.zip
