@@ -48,11 +48,18 @@ The plant is always at full load in this data, so none of this speaks to part-lo
 trained on six years of one plant will not transfer to a different plant without retraining. For a real
 deployment I would also watch for sensor drift rather than trusting a calibration from years ago.
 
+## Live demo
+
+`app.py` is a small Streamlit app that trains the model on load and lets you move the four
+ambient readings to see the predicted output. Run it with `streamlit run app.py`, or deploy
+it free on Streamlit Community Cloud straight from this repo.
+
 ## Running it
 
 ```
 pip install -r requirements.txt
-jupyter notebook analysis.ipynb
+jupyter notebook analysis.ipynb   # the full analysis
+streamlit run app.py              # the interactive demo
 ```
 
 Data source: Combined Cycle Power Plant dataset, UCI Machine Learning Repository.
