@@ -1,5 +1,7 @@
 # Predicting power plant output from ambient conditions
 
+**Live demo:** https://clownakeem-power-output.streamlit.app
+
 A regression project on the UCI Combined Cycle Power Plant dataset. The idea: a plant's electrical output
 depends on the weather at the air intake. Hot thin air gives the turbine less to work with, cool dense air
 gives it more. So how accurately can you predict the net hourly output from four ambient readings?
